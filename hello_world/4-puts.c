@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry poitn can call other funtions.
+ * main - entry point can call other funtions.
  * Return: Always(0).
  */
 int main(void)
