@@ -21,8 +21,8 @@ int main(void)
 			if (a == 9 && b == 9)
 				continue;
 
-			putchar(',');
-			putchar(' ');
+			putchar(','), (' ');
+			
 		}
 	}
 	putchar('\n');
