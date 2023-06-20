@@ -14,8 +14,10 @@ int main(void)
 
 	for (number = 0; number < 10; number++)
 	{
-		printf(number);
+		printf("%d", number);
 	}
+
+	putchar('\n');
 
 	return (0);
 }
