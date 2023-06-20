@@ -21,8 +21,7 @@ int main()
             putchar(j + '0');
 
             if (j < 9) {
-                putchar(',');
-                putchar(' ');
+                putchar(','), (' ');
             }
         }
     }
