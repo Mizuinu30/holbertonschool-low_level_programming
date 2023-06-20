@@ -7,29 +7,25 @@
  * Return: Always prints (0).
  */
 
-#include <stdio.h>
-
-int main()
+int main(void)
 {
-    int i, j;
-
-    for (i = 0; i < 10; i++)
+	int a, b;
+	for (a = 0; a < 10; a++)
 	{
-        for (j = i; j < 10; j++)
-			{
-            putchar(i + '0');
-            putchar(j + '0');
+		for (b = 0; b < 10; b++)
+		{
 
-            if (j < 9) {
-                putchar(','), (' ');
-            }
-        }
-    }
+			putchar((a % 10) + '0');
+			putchar((b % 10) + '0');
 
+			if (a == 9 && b == 9)
+				continue;
 
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 
-
-    return 0;
+	return (0);
 }
-
