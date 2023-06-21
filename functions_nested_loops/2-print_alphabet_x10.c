@@ -21,8 +21,6 @@ void print_alphabet_x10(void)
 		currentchar = 'a';
 		_putchar('\n');
 	}
-	_putchar('\n');
-
 }
 
 
