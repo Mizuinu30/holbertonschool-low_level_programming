@@ -7,7 +7,7 @@ all: ${OBJ}
 	${CC} ${SRC} -o {NAME}
 clean:
 	${RM} *~ ${NAME}
-oclen:
+oclean:
 	${RM} ${OBJ}
 fclean: clean oclean
 re: oclean all
