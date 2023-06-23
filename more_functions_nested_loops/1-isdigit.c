@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ *_isdigit - Write a function that checks for a digit (0 through 9).
+ *@c: variable that is to be verified.
+ *Return: 1 if c is a digit otherwise 0.
+ */
+
+int _isdigit(int c)
+{
+	if (c >= 48 && c <= 59)
+	{
+		return (1);
+	}
+	else
+	return (0);
+}
+
