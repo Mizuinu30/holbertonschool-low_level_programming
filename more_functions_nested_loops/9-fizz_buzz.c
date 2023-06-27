@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - function that checks for uppercase character.
+ * main - function that prints fizz buzz between digits..
  * Return: 0
  */
 int main(void)
