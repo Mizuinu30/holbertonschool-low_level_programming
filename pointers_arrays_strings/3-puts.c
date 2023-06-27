@@ -1,10 +1,9 @@
 #include "main.h"
-
- /**
- * _puts - prints a string, followed by a new line, to stdout.
- * @s: input string.
+/**
+ *_puts- it's a function that prints a string followed, by a new line.
+ *@str: input string.
  *
- * Return: length of string
+ *Return: length of string
  */
 
 void _puts(char *str)
