@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * _strdup - checks the input string.
+ * @str: string'
+ * Return: Null if its null otherwise allocates memory to duplicate.
+ */
+
 char *_strdup(char *str)
 {
 	char *duplicate;
