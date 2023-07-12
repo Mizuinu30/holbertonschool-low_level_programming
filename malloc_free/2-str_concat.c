@@ -4,15 +4,15 @@
 #include <string.h>
 
 /**
- *str_concat - pointer concatanated
- *@s1: string 1
- *@s2: string 2
- *Return: nothing
+ *str_concat - concatanate two strings using malloc.
+ *@s1: points to char location in memory
+ *@s2: points to char location in memory
+ *Return: null on failure or the concat pointers.
  */
 
 char *str_concat(char *s1, char *s2)
 {
-	int i = 0, j = 0;
+	int i, j;
 	char *ptr;
 
 	if (s1 == NULL)
