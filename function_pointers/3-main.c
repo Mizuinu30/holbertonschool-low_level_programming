@@ -9,34 +9,35 @@
  * Return: printf and whats inside it.
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int n1, n2;
 	int (*result)(int, int);
+
 	result = get_op_func(argv[2]);
 
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 
-	n1 = atoi (argv[1]);
-	n2 = atoi (argv[3]);
+	n1 = atoi(argv[1]);
+	n2 = atoi(argv[3]);
 
 	if (get_op_func(argv[2]) == NULL)
 
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 
 	if ((atoi(argv[2]) == atoi("/") || atoi(argv[2]) == atoi("%")) && n2 == 0)
 	{
 		printf("Error\n");
-		exit (100);
+		exit(100);
 	}
-	printf("%d\n",result(n1, n2));
+	printf("%d\n", result(n1, n2));
 
 	return (0);
 }
