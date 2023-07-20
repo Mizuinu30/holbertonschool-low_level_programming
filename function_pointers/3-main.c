@@ -31,10 +31,12 @@ int main (int argc, char *argv[])
 		exit (99);
 	}
 
-	if ((atoi(argv[2]) == atoi ("/") || atoi(argv[2]) == atoi ("%")) && n2 == 0)
+	if ((atoi(argv[2]) == atoi("/") || atoi(argv[2]) == atoi("%")) && n2 == 0)
 	{
 		printf("error\n");
 		exit (100);
 	}
-	return (printf("%d\n",result(n1, n2)));
-	}
+	printf("%d\n",result(n1, n2));
+
+	return (0);
+}
