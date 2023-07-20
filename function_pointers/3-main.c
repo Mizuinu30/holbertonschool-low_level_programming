@@ -33,7 +33,7 @@ int main (int argc, char *argv[])
 
 	if ((atoi(argv[2]) == atoi("/") || atoi(argv[2]) == atoi("%")) && n2 == 0)
 	{
-		printf("error\n");
+		printf("Error\n");
 		exit (100);
 	}
 	printf("%d\n",result(n1, n2));
