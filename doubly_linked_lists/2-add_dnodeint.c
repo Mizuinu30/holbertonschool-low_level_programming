@@ -4,7 +4,7 @@
  * add_dnodeint - a function that adds a new node
  * at the beginning of a list_t list.
  * @head: pointer to a pointer.
- * @str: pointer.
+ * @n: pointer.
  * Return: the address of the new element, or NULL if it failed.
  */
 
