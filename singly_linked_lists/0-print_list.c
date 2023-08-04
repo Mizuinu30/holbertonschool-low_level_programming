@@ -6,7 +6,7 @@
  * Return: count.
  */
 
-size_t print_list (const list_t *h)
+size_t print_list(const list_t *h)
 {
 	size_t count = 0;
 
@@ -14,7 +14,7 @@ size_t print_list (const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			printf("[0] (nil\n)");
+			printf("[0] (nil)\n");
 		}
 		else
 		{
@@ -23,5 +23,5 @@ size_t print_list (const list_t *h)
 		h = h->next;
 		count++;
 	}
-	return(count);
+	return (count);
 }
