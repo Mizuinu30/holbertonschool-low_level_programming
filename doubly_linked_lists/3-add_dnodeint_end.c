@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
- * add_dnodeint_end - a function that adds a new node at the end of a list_t list.
+ * add_dnodeint_end - a function that adds
+ * a new node at the end of a list_t list.
  * @head: pointer to a pointer.
  * @n: integer value of new node.
  * Return: a pointer to the new element or NULL.
