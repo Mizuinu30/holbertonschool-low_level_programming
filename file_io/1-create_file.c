@@ -2,15 +2,15 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include "main.h"
- /**
- * create_file - creates a file and puts text in it
- * with 600 perms (do not change if it exists)
- *
+
+/**
+ * create_file - creates a file.
  * @filename: name for file
  * @text_content: text to put into file
  *
  * Return: 1 on success, -1 on failure
  */
+
 int create_file(const char *filename, char *text_content)
 {
 	int file;
